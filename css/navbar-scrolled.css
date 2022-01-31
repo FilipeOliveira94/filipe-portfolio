@@ -1,0 +1,51 @@
+/* Navbar Scroll Changes*/
+.navbar {
+  transition: all 0.25s ease;
+  background-color: transparent;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/*--- Scrolled styles ---*/
+.affix.navbar {
+  background-color: #0d6efd !important;
+  opacity: 0.8;
+}
+
+/* Nav Brand, Nav Item new style */
+.affix.navbar .nav-item > a, 
+.affix.navbar .navbar-brand {
+  color: #fff !important;
+  background-color: #0459d6;
+  border-style: solid;
+  border-color: #fff;
+}
+
+/* Nav Item new hover style */
+.affix.navbar .nav-item>a:hover {
+  background-color: #ffffff;
+  color: #0d6efd !important; 
+  transition: 0.3s;
+}
+
+/* Nav Item new active style */
+.affix.navbar .active>a {
+  background-color: #ffffff !important;
+  color: #0d6efd !important;
+}
+
+/* Nav Item new active hover style */
+.affix.navbar li a:hover {
+  text-shadow: 0px 3px 4px #7db2ff;
+}
+
+/* Nav Toggler new icon color */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(0,105,217,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <title>Projects | Filipe Oliveira's Portfolio</title>
+  <meta name="description" content="A simple website I made for myselft using Bootstrap to show people my career's projects in data science and tech.">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <!-- FA -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  
+  <!-- Navbar CSS -->
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/navbar-scrolled.css">
+
+  <!-- Footer CSS -->
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- Scrollbar CSS -->
+  <link rel="stylesheet" href="./css/scrollbar.css">
+
+  <!-- Others CSS -->
+  <link rel="stylesheet" href="./css/others.css">
+
+</head>
+<!-- Head End -->
+
+<!-- Body --> 
+<body>
+
+  <!-- Navbar -->
+  <div class="p-3 mb-2 bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" data-toggle="affix">
+      <a class="navbar-brand shadow px-2">Filipe Oliveira - Portfolio</a>
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto justify-content">
+          <li class="nav-item">
+            <a class="nav-link shadow-sm px-lg-4" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link shadow-sm px-lg-4" href="./projetos.html">Projects<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link shadow-sm px-lg-4" href="./placeholder.html">Placeholder</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Snippet by Bootstrapious @ https://bootstrapious.com/snippets --> 
+  <!-- Banner -->
+  <div class="container-fluid px-0">
+    <div class="row py-5 no-gutters">
+      <div class="col-lg-12">
+        <div class="text-dark p-5 shadow banner" id="banner">
+          <h1 class="display-4 text-white">Personal Projects Gallery</h1>
+          <p class="lead text-white">A collection of my career projects in the tech world. Mostly data projects. Check each page for in-depth project info and code solutions. All data is obviously fictitious, for security reasons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner End -->
+
+  <!-- Grid -->
+  <div class="container-fluid">
+    <div class="px-lg-2">
+
+      <div class="row">
+        <!-- Gallery item 1 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://portfolio-filipe-oliveira.herokuapp.com/dashboard/1-black-friday-sales-dashboard" onclick="metabaseCredential()">
+              <img src="./img/dashbf.png" alt="" class="img-fluid card-img-top" >
+            </a>
+            <div class="p-4">
+              <h5> 
+                <a href="https://portfolio-filipe-oliveira.herokuapp.com/dashboard/1-black-friday-sales-dashboard" class="text-dark" onclick="metabaseCredential()">Black Friday Sales Dashboard</a>
+              </h5>
+              <p class="small text-muted mb-0">A Metabase dashboard for monitoring the Black Friday event's sales, providing real-time insights for the assigned commercial team's managers and performance metrics to show progress for the sales team.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-primary px-3 rounded-pill font-weight-normal">DataViz</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 2 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/face-ads-api">
+              <img src="./img/apifaceads.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5> 
+                <a href="https://github.com/FilipeOliveira94/face-ads-api" class="text-dark">FaceAds API</a>
+              </h5>
+              <p class="small text-muted mb-0">An API for retrieving the marketing team's ad campaigns in the Facebook Ads Manager, collecting metrics for each ad campaign, ad set and ad and combining the Ad Creative API to obtain each ad link with UTM parameters.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-dark px-3 rounded-pill font-weight-normal">API</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 3 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/pipefy-api">
+              <img src="./img/apipipefy.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5> 
+                <a href="https://github.com/FilipeOliveira94/pipefy-api" class="text-dark">Pipefy API</a>
+              </h5>
+              <p class="small text-muted mb-0">A project to collect Pipefy's data via their GraphAPI interface, obtaining all card data, including card's phases history, so we can build complete processes' funnels and analyze its metrics in real-time, using Pipefy's webhooks. </p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-dark px-3 rounded-pill font-weight-normal text-white">API</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 4 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://portfolio-filipe-oliveira.herokuapp.com/dashboard/2-roas-dashboard" onclick="metabaseCredential()">
+              <img src="./img/dashroas.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://portfolio-filipe-oliveira.herokuapp.com/dashboard/2-roas-dashboard" class="text-dark" onclick="metabaseCredential()">ROAS Analysis</a>
+              </h5>
+              <p class="small text-muted mb-0">The key result of the FaceAds API project: a dashboard for analysis of each ad campaign's ROAS (Return On Ad Spent), using the total ad spend of the API, and each campaign's earning from UTM tracking in the sales' team orders.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-info px-3 rounded-pill font-weight-normal text-white">Business</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 5 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://docs.google.com/spreadsheets/d/1i7tr9xkHzeHTB4Yt2vyvZOYCSvo1KN_Q8MS-jyIOQS4/edit?usp=sharing">
+              <img src="./img/refundAnalysis.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://docs.google.com/spreadsheets/d/1i7tr9xkHzeHTB4Yt2vyvZOYCSvo1KN_Q8MS-jyIOQS4/edit?usp=sharing" class="text-dark">Refund Analysis</a>
+              </h5>
+              <p class="small text-muted mb-0">An exploratory analysis to obtain insights on a key problem in most business: refunds. Shows insights on various layers of the business, categorizing each case based on day of purchase, refund reason, performance metrics, among other key metrics of the business case.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-info px-3 rounded-pill font-weight-normal text-white mt-auto">Business</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 6 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/nps-nlp-script">
+              <img src="./img/nlpScript.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://github.com/FilipeOliveira94/nps-nlp-script" class="text-dark">NPS Commentaries NLP Analysis</a>
+              </h5>
+              <p class="small text-muted mb-0">A script to obtain the main words, bigrams and trigrams (2 and 3-word combinations, respectively) in the commentaries of a NPS survey, generating a wordcloud for each case, after applying NLP (natural language processing) to standarize the data so we don't end with thousands of categories.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-secondary px-3 rounded-pill font-weight-normal">PLN</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 7 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/-Kaggle-TalkingData_AdFraud">
+              <img src="./img/talkingDataFraud.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://github.com/FilipeOliveira94/-Kaggle-TalkingData_AdFraud" class="text-dark">TalkingData Ad Fraud Detection</a>
+              </h5>
+              <p class="small text-muted mb-0">A Kaggle competition to a common solution of data science: fraud detection. TalkingData's case was fraud in ad clicks, generating misleading data that would damper marketing efforts. Various classification ML models were employed and compared, aside from initial exploratory analysis.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">Kaggle</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 8 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/-Kaggle-GrupoBimbo_InventoryDemand">
+              <img src="./img/bimboInventory.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://github.com/FilipeOliveira94/-Kaggle-GrupoBimbo_InventoryDemand" class="text-dark">Grupo Bimbo Inventory Demand</a>
+              </h5>
+              <p class="small text-muted mb-0">Grupo Bimbo's problem to have enough supply for it's over 1 million stores needed a model that could predict inventory demand based on sales data, which they provided on Kaggle. I employed some regression ML models and compared their resulting metrics to find simpler and accurate models.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">Kaggle</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 9 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex align-items-end flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/-Kaggle-SantanderCustomerSatisfaction">
+              <img src="./img/santanderCustomerSatisfaction.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://github.com/FilipeOliveira94/-Kaggle-SantanderCustomerSatisfaction" class="text-dark">Santander Customer Satisfaction</a>
+              </h5>
+              <p class="small text-muted mb-0">On a Kaggle competition, Santander displayed anonymized customer satisfaction data with hundreds of features, making this a pretty fun challenge on modelling to find the best model to solve another common solution of data science: being able to identify unsatisfied customer before they leave.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-danger px-3 rounded-pill font-weight-normal">Kaggle</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 10 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://github.com/FilipeOliveira94/Telecom-Company-Churn">
+              <img src="./img/telecomChurn.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://github.com/FilipeOliveira94/Telecom-Company-Churn" class="text-dark">Telecom Company Churn Rate</a>
+              </h5>
+              <p class="small text-muted mb-0">A machine learning project to predict customer churn on a fictional telecommunications company, in order to prevent non-vocal customers to abandon commercial relations. A pipeline with pre-processing and a logistic regression model were employed, with a good dose of exploratory analysis too.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-success px-3 rounded-pill font-weight-normal">Machine Learning</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 11 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://datastudio.google.com/reporting/51fe97ee-a3c2-478b-afbb-b99cae64fc12">
+              <img src="./img/courseSalesDashboard.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://datastudio.google.com/reporting/51fe97ee-a3c2-478b-afbb-b99cae64fc12" class="text-dark">Course Sales Dashboard</a>
+              </h5>
+              <p class="small text-muted mb-0">A Google Data Studio dashboard to monitor the sales data of a fictional courses company, providing real-time insights on the complete sales funnel, allowing cross-filtered views on product type, vendor data, marketing channel and funnel phase stage.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-primary px-3 rounded-pill font-weight-normal">DataViz</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+        <!-- Gallery item 12 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4 d-flex flex-column">
+          <div class="bg-white rounded shadow d-flex align-items-start flex-column flex-grow-1">
+            <a href="https://datastudio.google.com/reporting/cb8594cb-3bd5-4f8e-bb0c-986dd90e64a3">
+              <img src="./img/tiManagementDashboard.png" alt="" class="img-fluid card-img-top">
+            </a>
+            <div class="p-4">
+              <h5>
+                <a href="https://datastudio.google.com/reporting/cb8594cb-3bd5-4f8e-bb0c-986dd90e64a3" class="text-dark">IT Management Dashboard</a>
+              </h5>
+              <p class="small text-muted mb-0">Many tech teams struggle with tasks organization and buffer overloads. This Google Data Studio dashboard provides a solution for complete team-wide view of their performance and easy identification of bottlenecks on each work week, along with comparisons to show the team's evolution.</p>
+            </div>
+            <div class="d-flex rounded-pill px-3 py-2 mb-2 mx-2 mt-auto">
+              <div class="badge badge-primary px-3 rounded-pill font-weight-normal">DataViz</div>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+
+      </div>
+    </div>
+  </div>
+  <!-- Grid End -->
+
+  <!-- Footer -->
+  <footer class="mainfooter" role="contentinfo">
+    <div class="footer-middle">
+      <div class="container">
+        <div class="row justify-content-center">
+            <h4>Contact Info</h4>
+        </div>
+        <div class="row justify-content-center">
+          <ul class="social-network social-circle">
+            <li><a href="https://www.linkedin.com/in/filipe-oliveira94/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/FilipeOliveira94" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/_fi.oliveira/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/filipe.oliveira.944" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-md-12 pb-0 copy">
+            <p class="text-center">&copy; Copyright 2021-2022 - Filipe Oliveira.  All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+  <!-- js for smooth scrollings -->
+  <script src="./js/SmoothScroll.min.js"></script>
+
+  <!-- js for navbar  change on scroll -->
+  <script src="./js/NavbarScrollChange.js"></script>
+
+  <!-- Metabase Credential Alert -->
+  <script>
+  function metabaseCredential() {
+    alert("You will be redirected to my personal Metabase instance.\nYou may log-in with these credentials:\nUser: guest@gmail.com\nPassword: guest1234");
+  }
+  </script>
+
+</body>
+<!-- Body End -->
+
+</html>
