@@ -6,7 +6,6 @@
 * Introduction with Hero Banner
 * Career Timeline
 * Projects Page
-* Smooth Scroll
 * Scrollable Animated Navbar
 
 ## References
