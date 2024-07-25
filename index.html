@@ -217,7 +217,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 pb-0 copy">
-            <p class="text-center">&copy; Copyright 2021-2022 - Filipe Oliveira.  All rights reserved.</p>
+            <p id = "footer-text" class="text-center"></p>
           </div>
         </div>
       </div>
@@ -233,6 +233,13 @@
 
   <!-- js for navbar  change on scroll -->
   <script src="./js/NavbarScrollChange.js"></script>
+
+  <!-- current date script -->
+  <script>
+    const date = new Date().getFullYear();
+    text = "&copy; Copyright 2021-" + date + " - Filipe Oliveira.  All rights reserved."
+    document.getElementById('footer-text').innerText = text
+  </script>
 
 </body>
 <!-- Body End -->
